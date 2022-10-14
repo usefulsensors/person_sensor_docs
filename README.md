@@ -1,5 +1,5 @@
 # Person Sensor Developer Guide
-[pete@usefulsensors.com](mailto:pete@usefulsensors.com), permanent link is [usfl.ink/ps_dev](https://usfl.ink/ps_dev)
+*Author [pete@usefulsensors.com](mailto:pete@usefulsensors.com), permanent link is [usfl.ink/ps_dev](https://usfl.ink/ps_dev)*
 
 ## Introduction
 
