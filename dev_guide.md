@@ -1,7 +1,21 @@
 # Person Sensor Developer Guide
 [pete@usefulsensors.com](mailto:pete@usefulsensors.com), permanent link is [usfl.ink/ps_dev](https://usfl.ink/ps_dev)
 
-  * [Introduction](#introduction)
+## Introduction
+
+The [Person Sensor](https://usfl.ink/ps) from [Useful Sensors](https://usefulsensors.com)
+is a small, low-cost hardware module that detects nearby peoples’ faces, and
+returns information about how many there are, where they are relative to the
+device, and performs facial recognition. It is designed to be used as an input
+to a larger system, for example to wake up a kiosk display from sleep mode when
+somebody approaches, mute a microphone when nobody is present, or orient a fan
+so it’s always pointing at the nearest person.
+
+This guide will explain what information the module can return, how to interpret
+that information, and how to integrate with a microcontroller like an Arduino or
+Raspberry Pi. You will need a basic understanding of electronics, enough to
+integrate a temperature sensor for example, but very little coding is required.
+
   * [Getting it Working](#getting-it-working)
     + [Connecting](#connecting)
     + [Mounting](#mounting)
@@ -24,21 +38,6 @@
     + [Data Format](#data-format)
     + [C Struct Format](#c-struct-format)
     + [Python Data Format Strings](#python-data-format-strings)
-
-## Introduction
-
-The [Person Sensor](https://usfl.ink/ps) from [Useful Sensors](https://usefulsensors.com)
-is a small, low-cost hardware module that detects nearby peoples’ faces, and
-returns information about how many there are, where they are relative to the
-device, and performs facial recognition. It is designed to be used as an input
-to a larger system, for example to wake up a kiosk display from sleep mode when
-somebody approaches, mute a microphone when nobody is present, or orient a fan
-so it’s always pointing at the nearest person.
-
-This guide will explain what information the module can return, how to interpret
-that information, and how to integrate with a microcontroller like an Arduino or
-Raspberry Pi. You will need a basic understanding of electronics, enough to
-integrate a temperature sensor for example, but very little coding is required.
 
 ## Getting it Working
 
