@@ -29,10 +29,12 @@ integrate a temperature sensor for example, but very little coding is required.
   * [Configuration](#configuration)
   * [Sensor Characteristics](#sensor-characteristics)
   * [Example Code](#example-code)
-    + [CircuitPython](#circuitpython)
-    + [Arduino](#arduino)
-    + [Raspberry Pi Pico](#raspberry-pi-pico)
-    + [Raspberry Pi](#raspberry-pi)
+    + [Useful Sensors Examples](#useful-sensors-examples)
+      - [CircuitPython](#circuitpython)
+      - [Arduino](#arduino)
+      - [Raspberry Pi Pico](#raspberry-pi-pico)
+      - [Raspberry Pi](#raspberry-pi)
+    + [Community Examples](#community-examples)
   * [Privacy](#privacy)
   * [Appendix](#appendix)
     + [Data Format](#data-format)
@@ -231,23 +233,31 @@ conversion.
 
 ## Example Code
 
-We have samples available for some of the most popular platforms.
+### Useful Sensors Examples
 
-### CircuitPython
+We have written samples for some of the most popular development platforms.
+
+#### CircuitPython
 
 [github.com/usefulsensors/person_sensor_circuit_python](https://github.com/usefulsensors/person_sensor_circuit_python)
 
-### Arduino
+#### Arduino
 
 [github.com/usefulsensors/ID-Demo](https://github.com/usefulsensors/ID-Demo)
 
-### Raspberry Pi Pico
+#### Raspberry Pi Pico
 
 [github.com/usefulsensors/person_sensor_pico_c](https://github.com/usefulsensors/person_sensor_pico_c)
 
-### Raspberry Pi
+#### Raspberry Pi
 
 [github.com/usefulsensors/person_sensor_rpi_py](https://github.com/usefulsensors/person_sensor_rpi_py)
+
+### Community Examples
+
+We also love to feature projects created by makers, so if you'd like to see your
+guide, tutorial, or GitHub repo featured here, please send us a pull request
+adding it to this section of the documentation.
 
 ## Privacy
 This module includes an image sensor, and we want to make sure that this doesn’t
