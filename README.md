@@ -243,7 +243,7 @@ We have written samples for some of the most popular development platforms.
 
 #### Arduino
 
-[github.com/usefulsensors/ID-Demo](https://github.com/usefulsensors/ID-Demo)
+[github.com/usefulsensors/person_sensor_arduino](https://github.com/usefulsensors/person_sensor_arduino)
 
 #### Raspberry Pi Pico
 
