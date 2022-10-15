@@ -251,7 +251,7 @@ We have written samples for some of the most popular development platforms.
 
 #### Raspberry Pi
 
-[github.com/usefulsensors/person_sensor_rpi_py](https://github.com/usefulsensors/person_sensor_rpi_py)
+[github.com/usefulsensors/person_sensor_rpi_python](https://github.com/usefulsensors/person_sensor_rpi_python)
 
 ### Community Examples
 
