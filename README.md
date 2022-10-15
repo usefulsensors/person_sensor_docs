@@ -272,8 +272,8 @@ restriction is that we don’t allow you to access the image data, but we also
 don’t support flashing the firmware or model updating, because doing so could
 allow unchecked changes to the sensor’s behavior. Even though there’s a
 microcontroller on the board, we’re hoping that you’ll be able to get enough
-value out of its pre-programmed behavior in return for the user protection this
-approach offers.
+value out of its pre-programmed behavior to compensate for the inconvenience of 
+this user protection approach.
 
 If you’re interested in learning more about this approach to system design, we
 have a [research paper describing what we call Machine Learning Sensors](https://arxiv.org/pdf/2206.03266.pdf).
