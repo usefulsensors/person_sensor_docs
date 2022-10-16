@@ -241,6 +241,8 @@ We have written samples for some of the most popular development platforms.
 
 [github.com/usefulsensors/person_sensor_circuit_python](https://github.com/usefulsensors/person_sensor_circuit_python)
 
+[github.com/usefulsensors/person_sensor_screen_lock](https://github.com/usefulsensors/person_sensor_screen_lock)
+
 #### Arduino
 
 [github.com/usefulsensors/person_sensor_arduino](https://github.com/usefulsensors/person_sensor_arduino)
@@ -258,6 +260,10 @@ We have written samples for some of the most popular development platforms.
 We also love to feature projects created by makers, so if you'd like to see your
 guide, tutorial, or GitHub repo featured here, please send us a pull request
 adding it to this section of the documentation.
+
+#### Arduino
+
+[github.com/robotastic/useful-autolock](https://github.com/robotastic/useful-autolock)
 
 ## Privacy
 This module includes an image sensor, and we want to make sure that this doesn’t
