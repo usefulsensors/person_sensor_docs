@@ -114,7 +114,7 @@ while (1) {
     const person_sensor_face_t* face = &results.faces[i];
     printf("Face #%d: %d confidence, (%d, %d), %dx%d, %s\n",
       i, face->box_confidence, face->box_left, face->box_top,
-      face->box_width, face->box_height, 
+      face->box_right, face->box_bottom, 
       face->is_facing ? "facing" : "not facing");
   }
   sleep_ms(SAMPLE_DELAY_MS);
@@ -295,32 +295,32 @@ Information about each member is described in detail above.
 | 5 | Face #0 Box Confidence |
 | 6 | Face #0 Box Left |
 | 7 | Face #0 Box Top |
-| 8 | Face #0 Box Width |
-| 9 | Face #0 Box Height |
+| 8 | Face #0 Box Right |
+| 9 | Face #0 Box Bottom |
 | 10 | Face #0 Recognition Confidence |
 | 11 | Face #0 Recognition ID |
 | 12 | Face #0 Is Looking At |
 | 13 | Face #1 Box Confidence |
 | 14 | Face #1 Box Left |
 | 15 | Face #1 Box Top |
-| 16 | Face #1 Box Width |
-| 17 | Face #1 Box Height |
+| 16 | Face #1 Box Right |
+| 17 | Face #1 Box Bottom |
 | 18 | Face #1 Recognition Confidence |
 | 19 | Face #1 Recognition ID |
 | 20 | Face #1 Is Looking At |
 | 21 | Face #2 Box Confidence |
 | 22 | Face #2 Box Left |
 | 23 | Face #2 Box Top |
-| 24 | Face #2 Box Width |
-| 25 | Face #2 Box Height |
+| 24 | Face #2 Box Right |
+| 25 | Face #2 Box Bottom |
 | 26 | Face #2 Recognition Confidence |
 | 27 | Face #2 Recognition ID |
 | 28 | Face #2 Is Looking At |
 | 29 | Face #3 Box Confidence |
 | 30 | Face #3 Box Left |
 | 31 | Face #3 Box Top |
-| 32 | Face #3 Box Width |
-| 33 | Face #3 Box Height |
+| 32 | Face #3 Box Right |
+| 33 | Face #3 Box Bottom |
 | 34 | Face #3 Recognition Confidence |
 | 35 | Face #3 Recognition ID |
 | 36 | Face #3 Is Looking At |
