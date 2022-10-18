@@ -226,7 +226,7 @@ is approximately the time to perform one model iteration, so roughly
 
 This version of the board requires 3.3V input, and consumes about 150 milliwatts
 of power (with about 5mW going to the LED when active). The power consumption is
-higher than we would, so we’re hoping to reduce this significantly in future
+higher than we would like, so we’re hoping to reduce this significantly in future
 versions of the hardware. Part of the issue is that some of the components
 operate on 0.9V and 1.8V, so we’re losing a substantial amount of power in the
 conversion.
