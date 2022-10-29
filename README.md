@@ -96,6 +96,8 @@ Once you have the sensor connected and mounted, you’ll want to start reading
 information from it. The code you use to do this will depend on the platform
 you’re using for the main controller device, but [here’s some C example code for
 a Raspberry Pi Pico](https://github.com/usefulsensors/person_sensor_pico_c).
+The 7-bit peripheral address for the sensor is 0x62. Please note that some systems
+include the read/write bit in the address, making the 8-bit peripheral address 0xC4.
 
 ```C
 person_sensor_results_t results = {};
@@ -137,7 +139,7 @@ of the distance.
 
 The face (or bounding box) confidence reflects how certain the sensor is that
 what it has found is actually a face, and not just [a funny pattern on a piece of toast](https://www.buzzfeed.com/arielknutson/people-who-found-jesus-in-their-food).
-The value will range from zero, least certain, to one, most certain, and is
+The value will range from zero, least certain, to one hundred, most certain, and is
 stored as a single byte value. You can use this to adjust your application’s
 behavior if you require more certainty to take a particular action.
 
