@@ -243,6 +243,10 @@ We have written samples for some of the most popular development platforms.
 
 [github.com/usefulsensors/person_sensor_screen_lock](https://github.com/usefulsensors/person_sensor_screen_lock)
 
+[github.com/usefulsensors/person_sensor_carousel](https://github.com/usefulsensors/person_sensor_carousel)
+
+[github.com/usefulsensors/person_sensor_eye](https://github.com/usefulsensors/person_sensor_eye)
+
 #### Arduino
 
 [github.com/usefulsensors/person_sensor_arduino](https://github.com/usefulsensors/person_sensor_arduino)
