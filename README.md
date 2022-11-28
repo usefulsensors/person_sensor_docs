@@ -253,6 +253,8 @@ We have written samples for some of the most popular development platforms.
 
 [github.com/usefulsensors/person_sensor_arduino](https://github.com/usefulsensors/person_sensor_arduino)
 
+[github.com/usefulsensors/person_sensor_tv_remote](https://github.com/usefulsensors/person_sensor_tv_remote)
+
 #### Raspberry Pi Pico
 
 [github.com/usefulsensors/person_sensor_pico_c](https://github.com/usefulsensors/person_sensor_pico_c)
@@ -260,6 +262,10 @@ We have written samples for some of the most popular development platforms.
 #### Raspberry Pi
 
 [github.com/usefulsensors/person_sensor_rpi_python](https://github.com/usefulsensors/person_sensor_rpi_python)
+
+#### Micro:bit
+
+[github.com/usefulsensors/person_sensor_micro_bit](https://github.com/usefulsensors/person_sensor_micro_bit)
 
 ### Community Examples
 
