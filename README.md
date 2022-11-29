@@ -267,15 +267,22 @@ We have written samples for some of the most popular development platforms.
 
 [github.com/usefulsensors/person_sensor_micro_bit](https://github.com/usefulsensors/person_sensor_micro_bit)
 
+[github.com/usefulsensors/person_sensor_robot_car](https://github.com/usefulsensors/person_sensor_robot_car)
+
 ### Community Examples
 
 We also love to feature projects created by makers, so if you'd like to see your
 guide, tutorial, or GitHub repo featured here, please send us a pull request
-adding it to this section of the documentation.
+adding it to this section of the documentation. We also collect maker guides at
+[our Hackster project hub](https://www.hackster.io/useful-sensors/projects).
 
 #### Arduino
 
 [github.com/robotastic/useful-autolock](https://github.com/robotastic/useful-autolock)
+
+#### ESP32
+
+[github.com/shreyaskarnik/esphome-components](https://github.com/shreyaskarnik/esphome-components)
 
 ## Privacy
 This module includes an image sensor, and we want to make sure that this doesn’t
