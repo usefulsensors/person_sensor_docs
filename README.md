@@ -56,7 +56,9 @@ in the diagram below for reference. You can find more information about this
 form factor at [SparkFun’s Qwiic page](https://www.sparkfun.com/qwiic), but it’s
 now widely supported by a lot of vendors, including with [Adafruit’s Stemma QT connector](https://learn.adafruit.com/introducing-adafruit-stemma-qt/what-is-stemma-qt).
 SparkFun also have a [guide for connecting to a Raspberry Pi](https://learn.sparkfun.com/tutorials/qwiic-hat-for-raspberry-pi-hookup-guide), 
-and [another for Arduino Nanos](https://learn.sparkfun.com/tutorials/sparkfun-qwiic-shield-for-arduino-nano-hookup-guide). 
+and [another for Arduino Nanos](https://learn.sparkfun.com/tutorials/sparkfun-qwiic-shield-for-arduino-nano-hookup-guide). If you're using a standard
+connector, the wire colors are yellow for SCL, blue for SDA, red for 3.3V, and
+black for GND.
 There’s also a separate interrupt pin, TP1, which is used to indicate if any 
 people have been detected. This is only needed if you want to wake your system
 from a sleep mode to save power, otherwise you can ignore it, it just indicates
