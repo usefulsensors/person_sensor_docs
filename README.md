@@ -34,6 +34,7 @@ integrate a temperature sensor for example, but very little coding is required.
       - [Arduino](#arduino)
       - [Raspberry Pi Pico](#raspberry-pi-pico)
       - [Raspberry Pi](#raspberry-pi)
+      - [Micro:bit](#micro-bit)
     + [Community Examples](#community-examples)
   * [Privacy](#privacy)
   * [Appendix](#appendix)
