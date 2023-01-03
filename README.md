@@ -270,7 +270,7 @@ We have written samples for some of the most popular development platforms.
 
 [github.com/usefulsensors/person_sensor_micro_bit](https://github.com/usefulsensors/person_sensor_micro_bit)
 
-[https://github.com/usefulsensors/person_sensor_cutebot](https://github.com/usefulsensors/person_sensor_cutebot)
+[github.com/usefulsensors/person_sensor_cutebot](https://github.com/usefulsensors/person_sensor_cutebot)
 
 ### Community Examples
 
