@@ -287,6 +287,10 @@ adding it to this section of the documentation. We also collect maker guides at
 
 [github.com/shreyaskarnik/esphome-components](https://github.com/shreyaskarnik/esphome-components)
 
+#### Pico
+
+[instructables.com/Facial-Recognition-Using-the-Person-Sensor-and-Pic/](https://www.instructables.com/Facial-Recognition-Using-the-Person-Sensor-and-Pic/)
+
 ## Privacy
 This module includes an image sensor, and we want to make sure that this doesn’t
 pose a threat to any of our users’ privacy. We’ve designed the module so that it
