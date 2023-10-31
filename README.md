@@ -41,6 +41,7 @@ integrate a temperature sensor for example, but very little coding is required.
     + [Data Format](#data-format)
     + [C Struct Format](#c-struct-format)
     + [Python Data Format Strings](#python-data-format-strings)
+    + [Board Versions](#board-versions)
 
 ## Getting it Working
 
@@ -402,3 +403,15 @@ PERSON_SENSOR_FACE_FORMAT = "BBBBBBbB"
 PERSON_SENSOR_RESULT_FORMAT = PERSON_SENSOR_I2C_HEADER_FORMAT +
     "B" + PERSON_SENSOR_FACE_FORMAT * 4 + "H"
 ```
+
+### Board Versions
+
+The original v1.0 board was available until around August 2023 from SparkFun
+and was replaced with a v1.1 update. This has complete software compatibility
+but includes some changes to the board based on customer feedback. These
+include:
+
+ - Two mounting holes.
+ - Pads for connecting the individual signals without using a QWIIC connector.
+ - Snap-off side panel containing the holes and pads.
+ - Glued-on camera module.
