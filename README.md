@@ -415,3 +415,13 @@ include:
  - Pads for connecting the individual signals without using a QWIIC connector.
  - Snap-off side panel containing the holes and pads.
  - Glued-on camera module.
+
+The v1.1 sensor was available until around December 2023 from SparkFun and was
+replaced with a v2.0 update. The board has complete software compatibility. The
+board contains the following changes compared with v1.1:
+
+ - Replace hx6537 processor with esp32s3
+ - Replace hm0360 image sensor with gc032a
+ - Redesign board to reduce physical size
+ - Face detection algorithm frame rate incrased
+ - Face recognition algorithm accuracy increased
